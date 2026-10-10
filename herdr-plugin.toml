@@ -1,0 +1,10 @@
+id = "agent-notify"
+name = "agent-notify"
+version = "0.1.0"
+min_herdr_version = "0.7.0"
+description = "Desktop notifications when an agent finishes or needs approval (click to focus the pane)"
+platforms = ["linux"]
+
+[[events]]
+on = "pane.agent_status_changed"
+command = ["bash", "notify.sh"]
