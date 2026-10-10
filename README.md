@@ -26,10 +26,10 @@ Notification urgency:
 herdr plugin link /path/to/herdr-agent-notify
 ```
 
-or install from a GitHub repository after pushing this directory:
+or install from GitHub:
 
 ```bash
-herdr plugin install <owner>/herdr-agent-notify
+herdr plugin install chana1024/herdr-agent-notify
 ```
 
 Verify it is registered:
